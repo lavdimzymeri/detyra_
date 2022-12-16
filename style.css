@@ -1,0 +1,49 @@
+.cards{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+gap: 1rem;
+}
+
+
+.card {
+    box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 200px;
+    margin: auto;
+    text-align: center;
+    background-color: rgb(212, 234, 168);
+  }
+
+  .card p{
+    color:black;
+  }
+  .card img{
+    width: 100%;
+    height: auto;
+  }
+  
+  
+  .title {
+    color: grey;
+    font-size: 18px;
+    text-align: left;
+  }
+  
+  /*=====================MEDIA QUERIES (MEDIUM DEVICES)=========================*/
+
+  @media screen and (max-width:1024px) {
+
+    .cards{
+        grid-template-columns: 1fr 1fr 1fr;
+
+    }
+  
+}
+
+@media screen and (max-width:600px) {
+
+    .cards{
+        grid-template-columns: 1fr;
+
+    }
+  
+}
