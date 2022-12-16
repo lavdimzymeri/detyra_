@@ -52,6 +52,49 @@ gap: 1rem;
     border: 3px solid black;
     margin: 2rem;
   }
+
+  .search-feature{
+    width: 50%;
+    max-width: 300px;
+    background-color: azure;
+    display: flex;
+    align-items: left;
+    border-radius: 30px;
+    padding: 10px 20px;
+    margin: 1rem;
+  }
+
+  .search-feature input{
+    background: transparent;
+    float: left;
+    margin:5px;
+    flex: 1;
+    border: 1;
+    outline: none;
+    padding: 10px 8px;
+    font-size: 10px;
+    color: black;
+  }
+
+  .search-feature button{
+    padding: 0.5rem;
+    display: flex;
+    margin: 7px;
+    background: black;
+    color: white;
+    float: left;
+  }
+
+  .search-feature button:hover{
+    color: black;
+    background: white;
+    border: 1px solid black;
+  }
+
+  .search-feature button img{
+    width: 25px;
+  }
+
   
   /*=====================MEDIA QUERIES (MEDIUM DEVICES)=========================*/
 
