@@ -28,6 +28,31 @@ gap: 1rem;
     text-align: left;
   }
   
+  .pignation{
+    margin: 1rem;
+    position: absolute;
+  }
+
+  .pignation a{
+    text-decoration: none;
+    background-color: black;
+    padding: 6.5px;
+    color: white; 
+    gap: 5px;
+  }
+
+  .pignation a:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+  }
+
+  #google_element{
+    padding: 1rem;
+    border: 3px solid black;
+    margin: 2rem;
+  }
+  
   /*=====================MEDIA QUERIES (MEDIUM DEVICES)=========================*/
 
   @media screen and (max-width:1024px) {
@@ -44,6 +69,12 @@ gap: 1rem;
     .cards{
         grid-template-columns: 1fr;
 
+    }
+    .text-center{
+        text-align: end;
+    }
+    .pignation a {
+        padding: 3px;
     }
   
 }
